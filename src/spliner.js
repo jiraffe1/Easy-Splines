@@ -6,7 +6,7 @@ var tolSlider;
 function setup() {
   createCanvas(800, 600);
   spline = new Spline();
-  createP("Generation settings");
+  createP("Generation settings [BROKEN]");
   createP("StepSize");
   stepSlider = createSlider(0.1, 2, 0.5, 0.05);
   createP("MaxVel");
